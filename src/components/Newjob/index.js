@@ -83,7 +83,7 @@ class Newjob extends Component {
   }
 
   getloadings = () => (
-    <div className="loadercontainer">
+    <div testid="loader" className="loadercontainer">
       <Loader type="TailSpin" width={50} height={50} className="loader" />
     </div>
   )

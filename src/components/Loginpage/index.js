@@ -8,7 +8,7 @@ class LoginPage extends Component {
 
   makecallpage = data => {
     const {history} = this.props
-    Cookies.set('jwt_token', data, {expires: 1})
+    Cookies.set('jwt_token', data, {expires: 1, path: '/'})
     history.replace('/')
   }
 

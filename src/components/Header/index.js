@@ -13,13 +13,15 @@ const Header = props => {
   return (
     <nav>
       <ul className="headingcontainer">
-        <Link to="/">
-          <img
-            className="logoimg"
-            alt="website logo"
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-          />
-        </Link>
+        <li>
+          <Link to="/">
+            <img
+              className="logoimg"
+              alt="website logo"
+              src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+            />
+          </Link>
+        </li>
 
         <li className="contentcontainer">
           <p>

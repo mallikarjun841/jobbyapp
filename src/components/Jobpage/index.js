@@ -162,7 +162,7 @@ class Job extends Component {
   }
 
   getloading = () => (
-    <div>
+    <div testid="loader">
       <Loader className="loaders" type="ThreeDots" width={50} height={50} />
     </div>
   )
@@ -258,10 +258,9 @@ class Job extends Component {
                 type="search"
                 placeholder="search"
               />
-              <button type="button">
+              <button testid="searchButton" type="button">
                 <BiSearchAlt2 />
               </button>
-
               {make}
             </div>
           </div>
